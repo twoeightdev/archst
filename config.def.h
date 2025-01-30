@@ -97,6 +97,9 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
+/* bg opacity */
+float alpha = 0.8;
+
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
     /* 8 normal colors */
@@ -469,4 +472,4 @@ static char ascii_printable[] =
     "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
     "`abcdefghijklmnopqrstuvwxyz{|}~";
 
-// Last Modified: Thu, 30 Jan 2025 11:17:59 AM
+// Last Modified: Thu, 30 Jan 2025 11:22:05 AM
