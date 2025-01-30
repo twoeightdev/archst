@@ -5,7 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "mono:size=14:antialias=true:autohint=true";
+static char *font2[] = {
+    "Noto Color Emoji:pixelsize=12:antialias=true:autohint=true"
+};
+
 static int borderpx = 2;
 
 /*
@@ -473,4 +477,4 @@ static char ascii_printable[] =
     "@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
     "`abcdefghijklmnopqrstuvwxyz{|}~";
 
-// Last Modified: Sun, 26 Jan 2025 01:59:39 PM
+// Last Modified: Thu, 30 Jan 2025 10:37:34 AM
