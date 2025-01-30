@@ -81,6 +81,8 @@ void die(const char *, ...);
 void redraw(void);
 void draw(void);
 
+void kscrolldown(const Arg *);
+void kscrollup(const Arg *);
 void printscreen(const Arg *);
 void printsel(const Arg *);
 void sendbreak(const Arg *);
@@ -125,4 +127,4 @@ extern unsigned int defaultfg;
 extern unsigned int defaultbg;
 extern unsigned int defaultcs;
 
-// Last Modified: Sun, 26 Jan 2025 02:00:50 PM
+// Last Modified: Thu, 30 Jan 2025 12:13:28 PM
